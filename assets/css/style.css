@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
+/* I added '' around Calibri so the font will be recognized
+I also changed the float to left and the margin left to add some 
+space between the new buttons I combined the 2 .header classes to 
+condense the code. I added a width of 100% to make the header stretch
+across the whole screen. I took out the margins so that the banner is 
+aligned with the background img.*/
+.header {
+  float: left;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 20px;
+  background-color: #2a607c;
+  padding: 20px;
+  color: #ffffff;
+  width: 100%;
+}
+
+/* I added the button class to make this more accessible
+This has the same margin and spacing as the header. I added
+border none to remove the border and keep the same background color*/
+.button {
+  padding-top: 15px;
+  margin-right: 20px;
+  margin-left: 30px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 20px;
+  background-color: #2a607c;
+  border: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* By combining these 3 classes I was able to apply the same margin bottom size and color while shortining the code*/
+.benefit-lead.benefit-brand.benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Combing these 3 class to apply the same margin-bottom and text-align center to shorten the code. */
+.benefit-lead h3.benefit-brand h3.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* I tried to combine .benefit-lead img .benefit-brand img
+and .benefit-cost img but I was unsucessfull. I changed the class names 
+tried to change the div id names but nothing I tired seemed to work all of
+the images were extremly big I need some more time to google the solution.*/
+.benefit-lead img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-brand img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.search-engine-optimization {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.online-reputation-management {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.social-media-marketing {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.search-engine-optimization img {
+  max-height: 200px;
+}
+
+.online-reputation-management img {
+  max-height: 200px;
+}
+
+.social-media-marketing img {
+  max-height: 200px;
+}
+
+/* I have combined these h2 elements because they are all the same font size and have the same margin*/
+.search-engine-optimization
+  h2
+  .online-reputation-management
+  h2
+  .social-media-marketing
+  h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}

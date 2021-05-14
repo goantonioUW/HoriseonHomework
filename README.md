@@ -6,7 +6,7 @@ I condensed the code and organized it in a way that is logical and follows acces
 
 # Live Link
 
-[!Horizon Live Link!!!]https://goantoniouw.github.io/HoriseonHomework/
+[Horizon Live Link!!!](https://goantoniouw.github.io/HoriseonHomework/)
 
 
  

@@ -10,6 +10,7 @@ I condensed the code and organized it in a way that is logical and follows acces
 
 # Screenshot
 
+ ![Screenshot of the login page](assets/images/screenshot.png)
 
 
 
